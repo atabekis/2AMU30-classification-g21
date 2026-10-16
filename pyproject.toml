@@ -1,0 +1,19 @@
+[project]
+name = "models-on-generated-and-iris"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "notebook>=7.6.3",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "tqdm>=4.70.1",
+]
+
+[dependency-groups]
+notebook = [
+    "jinja2>=3.1.6",
+    "jupyterlab>=4.4",
+    "matplotlib>=3.10",
+]
